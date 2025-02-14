@@ -11,7 +11,6 @@ export default function Inputs() {
             prefix={<UserOutlined />}
             allowClear
         >
-
         </Input.Search>
     </div>
   )
