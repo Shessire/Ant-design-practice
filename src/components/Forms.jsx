@@ -1,13 +1,24 @@
-import React from 'react'
-import { Form, Input, Button } from 'antd'
+import { useState } from 'react'
+import { Form, Input, Button, message, Alert } from 'antd'
 
 export default function Forms() {
+    const [showAlert, setShowAlert] = useState(false)
     const onFinish = (e) => {
         console.log(e)
+        setShowAlert(true)
     }
 
   return (
     <div>
+        {
+            showAlert &&
+            <Alert 
+                type='error'
+                message='Error'
+                description="There was an error on login"
+                closable
+            />
+        }
         <Form onFinish={onFinish}>
             <Form.Item label="User Name" name="username">
                 <Input placeholder='User name'></Input>
