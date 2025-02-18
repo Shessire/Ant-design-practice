@@ -1,5 +1,6 @@
 import './App.css'
 import Buttons from './components/Buttons'
+import DatePickers from './components/DatePickers'
 import Forms from './components/Forms'
 import Inputs from './components/Inputs'
 import Selects from './components/Selects'
@@ -9,11 +10,12 @@ function App() {
 
   return (
     <>
-      {/* <Buttons />
+      <Buttons />
       <Inputs />
-      <Selects /> */}
+      <Selects />
       <Forms />
-      {/* <Tables /> */}
+      <Tables />
+      <DatePickers />
     </>
   )
 }
