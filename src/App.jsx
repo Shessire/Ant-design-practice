@@ -1,6 +1,7 @@
 import './App.css'
 import Buttons from './components/Buttons'
 import DatePickers from './components/DatePickers'
+import Filters from './components/Filters'
 import Forms from './components/Forms'
 import Inputs from './components/Inputs'
 import Progresses from './components/Progresses'
@@ -20,6 +21,7 @@ function App() {
       <DatePickers />
       <Spins />
       <Progresses />
+      <Filters />
     </>
   )
 }
