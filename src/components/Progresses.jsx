@@ -6,7 +6,7 @@ export default function Progresses() {
     <div>
         <Progress percent={33} />
         <Progress percent={33} type="circle" strokeColor="green"/>
-        <Progress percent={33} type="line" strokeColor="magenta" strokeWidth={15} status='active'/>
+        <Progress percent={33} type="line" strokeColor="magenta" status='active'/>
         <Progress percent={33} type="line" steps={3}/>
     </div>
   )

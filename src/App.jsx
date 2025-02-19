@@ -5,6 +5,7 @@ import Filters from './components/Filters'
 import Forms from './components/Forms'
 import Inputs from './components/Inputs'
 import Progresses from './components/Progresses'
+import SelectRow from './components/SelectRow'
 import Selects from './components/Selects'
 import Spins from './components/Spins'
 import Tables from './components/Tables'
@@ -22,6 +23,7 @@ function App() {
       <Spins />
       <Progresses />
       <Filters />
+      <SelectRow />
     </>
   )
 }
