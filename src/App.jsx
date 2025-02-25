@@ -3,6 +3,7 @@ import Buttons from './components/Buttons'
 import DatePickers from './components/DatePickers'
 import Filters from './components/Filters'
 import Forms from './components/Forms'
+import Icons from './components/Icons'
 import Inputs from './components/Inputs'
 import Progresses from './components/Progresses'
 import SelectRow from './components/SelectRow'
@@ -24,6 +25,7 @@ function App() {
       <Progresses />
       <Filters />
       <SelectRow />
+      <Icons />
     </>
   )
 }
