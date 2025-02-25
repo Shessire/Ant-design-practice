@@ -1,5 +1,7 @@
 import './App.css'
+import '@ant-design/v5-patch-for-react-19';
 import Buttons from './components/Buttons'
+import CRUD from './components/CRUD'
 import DatePickers from './components/DatePickers'
 import Filters from './components/Filters'
 import Forms from './components/Forms'
@@ -26,6 +28,7 @@ function App() {
       <Filters />
       <SelectRow />
       <Icons />
+      <CRUD />
     </>
   )
 }
